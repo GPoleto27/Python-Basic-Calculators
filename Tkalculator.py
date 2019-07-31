@@ -7,8 +7,8 @@ from tkinter import ttk
 class Application:
     def __init__(self, master=None):
         self.main = tk.Frame(master)
-        self.main["padx"] = 25
-        self.main["pady"] = 25
+        self.main["padx"] = 10
+        self.main["pady"] = 10
         self.main.pack()
 
         self.expression = tk.StringVar()
