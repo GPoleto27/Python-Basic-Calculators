@@ -42,21 +42,17 @@ class ButtonWindow(Gtk.Window):
         button.connect("clicked", self.pushInput, "6")
         grid.attach(button, 2, 2, 1, 1)
 
-        button = Gtk.Button.new_with_mnemonic("1")
-        button.connect("clicked", self.pushInput, "1")
-        grid.attach(button, 0, 3, 1, 1)
-
         button = Gtk.Button.new_with_mnemonic("7")
         button.connect("clicked", self.pushInput, "7")
-        grid.attach(button, 1, 3, 1, 1)
+        grid.attach(button, 0, 3, 1, 1)
 
         button = Gtk.Button.new_with_mnemonic("8")
         button.connect("clicked", self.pushInput, "8")
-        grid.attach(button, 2, 3, 1, 1)
+        grid.attach(button, 1, 3, 1, 1)
 
         button = Gtk.Button.new_with_mnemonic("9")
         button.connect("clicked", self.pushInput, "9")
-        grid.attach(button, 1, 3, 1, 1)
+        grid.attach(button, 2, 3, 1, 1)
 
         button = Gtk.Button.new_with_mnemonic(".")
         button.connect("clicked", self.pushInput, ".")
